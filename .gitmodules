@@ -1,0 +1,4 @@
+[submodule "src/SignalSlot"]
+	path = src/SignalSlot
+	url = git@github.com:IndieLightAndMagic/Signals-And-Octo-Slots.git
+	branch = master
