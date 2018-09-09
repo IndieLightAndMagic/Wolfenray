@@ -39,8 +39,8 @@ include(cmake/CPP.cmake)
 TRY_17()
 
 #Project is SDL VoidSample
-set(ProjectName VoidSample)
-project(${ProjectName})
+set(ProjectName WolfenRay)
+project(${ProjectName} VERSION 0.1.0 LANGUAGES CXX)
 
 PrintLine()
 HeaderMessage("Adding Headers To Project")
