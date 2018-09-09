@@ -9,6 +9,7 @@ cmake_minimum_required(VERSION 3.5.1)
 include(cmake/Messages.cmake)
 
 set(CMAKE_VERBOSE_MAKEFILE 1)
+set(ROOT_ROOT ${CMAKE_SOURCE_DIR}/..)
 
 PrintLine()
 HeaderMessage("SDL Template Example By Julian Guarin")
@@ -28,6 +29,9 @@ include(cmake/SDL.cmake)
 
 #GML 
 include(cmake/GLM.cmake)
+
+#SignalSlot
+include(cmake/SignalSlot.cmake)
 
 #Cocoa 
 include(cmake/MacOS.cmake)
