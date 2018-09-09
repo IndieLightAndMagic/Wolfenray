@@ -2,3 +2,7 @@
 	path = src/SignalSlot
 	url = git@github.com:IndieLightAndMagic/Signals-And-Octo-Slots.git
 	branch = master
+[submodule "src/ECS"]
+	path = src/ECS
+	url = git@github.com:IndieLightAndMagic/ECS.git
+	branch = master
