@@ -8,7 +8,7 @@
 cmake_minimum_required(VERSION 3.5.1)
 include(cmake/Messages.cmake)
 
-set(CMAKE_VERBOSE_MAKEFILE ON)
+set(CMAKE_VERBOSE_MAKEFILE 1)
 
 PrintLine()
 HeaderMessage("SDL Template Example By Julian Guarin")
