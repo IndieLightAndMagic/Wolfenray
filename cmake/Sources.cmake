@@ -34,15 +34,6 @@ function(SOURCES_TO_COMPILE PROJECT_NAME)
             ${CMAKE_SOURCE_DIR}/src/ECS/Entity/entitymanager.cpp
             ${CMAKE_SOURCE_DIR}/src/ECS/Entity/entity.h
 
-
-            ${CMAKE_SOURCE_DIR}/src/Event/event.h
-            ${CMAKE_SOURCE_DIR}/src/Event/eventmanager.h
-            
-            ${CMAKE_SOURCE_DIR}/src/Event/eventgamepad.h
-            ${CMAKE_SOURCE_DIR}/src/Event/eventjoystick.h
-            ${CMAKE_SOURCE_DIR}/src/Event/eventkeyboard.h
-            ${CMAKE_SOURCE_DIR}/src/Event/eventkeyboard_sdlbridge.h
-
             ${CMAKE_SOURCE_DIR}/src/Sprite.cpp
 
             ${CMAKE_SOURCE_DIR}/src/SignalSlot/signalslot.h
