@@ -1,6 +1,8 @@
 #ifndef __SHIP__
 #define __SHIP__
 
+#include <sdlwrapper.h>
+
 #include <set>
 #include <SDL2_image/SDL_image.h>
 
@@ -10,7 +12,6 @@
 
 #include <ECS/Entity/entitymanager.h>
 
-SDL_Texture* SDLCreateTextureFromSurface(SDL_Surface* pSurface);
 namespace GTech{
 
 

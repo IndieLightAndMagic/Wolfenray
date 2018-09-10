@@ -27,8 +27,7 @@ namespace GTech  {
     std::tuple<uint32_t, int , glm::ivec2> SDLQueryTexture(SDL_Texture*);
 
 
-    SDL_Texture* SDLCreateTextureFromFile(const char *path);
-
+    
     void SDLDetachRenderTexture();
     void SDLRenderClear();
     void SDLRenderCopy(SDL_Texture* texture, const SDL_Rect* srcrect, const SDL_Rect* dstrect);
