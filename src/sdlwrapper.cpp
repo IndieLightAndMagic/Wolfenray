@@ -14,7 +14,7 @@ using namespace std;
 
 SDL_Window* pWindow;
 SDL_Renderer* pRenderer;
-
+SDL_GLContext xContext; 
 
 namespace GTech {
 
@@ -31,9 +31,16 @@ namespace GTech {
             std::cerr << "SDL_Init failed: " << SDL_GetError() << "\n";
             SDL_assert(false);
         }
+
+        SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION,3);
+        SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION,3);
+        SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
+        SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, SDL_GL_CONTEXT_FORWARD_COMPATIBLE_FLAG);
+        SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER,1);
+        SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE,24);
         pWindow = nullptr;
         pWindow = SDL_CreateWindow(
-                "Kill the Martian!!!",
+                "WolfenRay",
                 SDL_WINDOWPOS_CENTERED,
                 SDL_WINDOWPOS_CENTERED,
                 WindowWidth,
@@ -43,6 +50,7 @@ namespace GTech {
         if (!pWindow){
             std::cerr << "SDL CreateWindow failed. \n";
             SDL_assert(false);
+            xContext = SDL_GL_CreateContext(pWindow);
         }
         pRenderer = nullptr;
         pRenderer = SDL_CreateRenderer(pWindow, -1, SDL_RENDERER_ACCELERATED|SDL_RENDERER_TARGETTEXTURE);
@@ -50,6 +58,7 @@ namespace GTech {
             std::cerr << "SDL_CreatRenderer failed. \n";
             SDL_assert(false);
         }
+        
 
         auto imageFlags = 0;
 
