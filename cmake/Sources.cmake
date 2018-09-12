@@ -1,6 +1,6 @@
 function(SOURCES_INCLUDE)
     include_directories(${CMAKE_SOURCE_DIR}/src)
-
+    include_directories(${CMAKE_SOURCE_DIR}/src/json/include)
 endfunction()
 
 function(SOURCES_TO_COMPILE PROJECT_NAME)
