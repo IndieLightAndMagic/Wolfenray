@@ -6,3 +6,6 @@
 	path = src/ECS
 	url = git@github.com:IndieLightAndMagic/ECS.git
 	branch = master
+[submodule "src/json"]
+	path = src/json
+	url = git@github.com:nlohmann/json.git
