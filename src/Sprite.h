@@ -1,7 +1,7 @@
 #ifndef __SHIP__
 #define __SHIP__
 
-#include <sdlwrapper.h>
+#include <SDLWrapper/sdlwrapper.h>
 
 #include <set>
 #include <SDL2_image/SDL_image.h>

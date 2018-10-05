@@ -4,7 +4,7 @@
 
 #include <glm/detail/func_trigonometric.hpp>
 #include <SDL2/SDL.h>
-#include <sdlwrapper.h>
+#include <SDLWrapper/sdlwrapper.h>
 
 #include <ECS/System/kinematics.h>
 #include <ECS/System/rendering.h>

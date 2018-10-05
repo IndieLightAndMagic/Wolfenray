@@ -1,4 +1,4 @@
-#include <sdlwrapper.h>
+#include <SDLWrapper/sdlwrapper.h>
 #include "timer.h"
 
 using namespace GTech;

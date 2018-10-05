@@ -8,8 +8,8 @@
 cmake_minimum_required(VERSION 3.5.1)
 include(cmake/Messages.cmake)
 
-set(CMAKE_VERBOSE_MAKEFILE 1)
-set(ROOT_ROOT ${CMAKE_SOURCE_DIR}/..)
+set(CMAKE_VERBOSE_MAKEFILE TRUE)
+set(GTECH_DIR $ENV{GTECH_ROOT})
 
 PrintLine()
 HeaderMessage("SDL Template Example By Julian Guarin")
@@ -24,7 +24,7 @@ include(cmake/Sources.cmake)
 #Resources
 include(cmake/Resources.cmake)
 
-#SDL2 
+#SDL2
 include(cmake/SDL.cmake)
 
 #GML 
@@ -35,10 +35,8 @@ include(cmake/MacOS.cmake)
 
 #Set C++
 include(cmake/CPP.cmake)
-#USE_14()
 TRY_17()
 
-#Project is SDL VoidSample
 set(ProjectName WolfenRay)
 project(${ProjectName} VERSION 0.1.0 LANGUAGES CXX)
 
@@ -62,3 +60,7 @@ COCOA_LINK(${ProjectName})
 PrintLine()
 HeaderMessage("Standard Linkage Addition")
 LINK_STANDARD_LIBRARIES(${ProjectName})
+
+PrintLine()
+HeaderMessage("GTECH Linkage Addition")
+GTECH_HEADER_AND_LINK(${ProjectName})
