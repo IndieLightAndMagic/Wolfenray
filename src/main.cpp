@@ -1,3 +1,11 @@
+#include <iostream>
+#ifdef __APPLE__
+#include <OpenGL/gl3.h>
+#include <OpenGL/glext.h>
+#else 
+#include <OpenGL/gl.h>
+#endif /*__APPLE__*/
+
 #include <SDLWrapper/sdlwrapper.h>
 #include "timer.h"
 
@@ -14,7 +22,7 @@ int main(int argc, char **argv) {
 
     /* Init Game Technology */
     SDLInitialization();
-
+    std::cout << "GL SHADING LANGUAGE VERSION: " << glGetString(GL_SHADING_LANGUAGE_VERSION) << " " << glGetString(GL_VERSION) << std::endl; 
 
 
     /* Initialization of the game */
