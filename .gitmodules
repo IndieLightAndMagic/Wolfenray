@@ -9,6 +9,3 @@
 [submodule "src/json"]
 	path = src/json
 	url = git@github.com:nlohmann/json.git
-[submodule "src/collader"]
-	path = src/collader
-	url = git@github.com:IndieLightAndMagic/collader-guacamole.git
