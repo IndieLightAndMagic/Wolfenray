@@ -1,0 +1,282 @@
+0000 Nothing
+0001 Grey stone 1
+0002 Grey stone 2
+0003 Grey w/banner
+0004 Grey w/hitler
+0005 Cell
+0006 Grey w/eagle
+0007 Cell w/skeleton
+0008 Blue stone 1
+0009 Blue stone 2
+000a Wood w/eagle
+000b Wood w/hitler
+000c Wood panelling
+000d Entrance to level
+000e Steel w/signs
+000f Steel plate
+0010 Landscape
+0011 Red brick
+0012 Red w/wreath
+0013 Purple wall
+0014 Red w/shield
+0015 Elevator <>
+0016 Elevator 2 ^v
+0017 Wood w/symbol
+0018 *stone w/yellow stf
+0019 Purple w/blood
+001a *stone w/yellow2
+001b Grey stone 3
+001c *Grey stone w/signs
+001D *Tan design
+001E *Tan W blood
+001F *Tan W blood 2
+0020 *Tan W blood 3
+0021 *Wblock/Hitler
+0022 *Blueblock/Face
+0023 *White block
+0024 *Bblock W symbol
+0025 *Wblock W Bit
+0026 *R/W/Y/bricks
+0027 *Wbrick W crack
+0028 *Blue Block
+0029 *Blue stone/sign
+002A *Tan pannel
+002B *Wblock w map
+002C *Tan stone
+002D *Tan stone2
+002E *Tan pannel 2
+002F *Tan Pannel/flag
+0030 *Plasterboard
+0031 *Wblock w Pic
+005a Door
+005b Door
+005c Locked door
+005d Locked door
+005E Locked door 2 |
+005F Locked door 2 -
+0060 Fixed door |
+0061 Fixed door -
+0062 Fixed door |
+0063 Fixed door -
+0064 Elevator entrance |
+0065 Elevator entrance -
+006A Stasis Area 6A
+006C Area 6C
+006D Area 6D
+006E Area 6E
+006F Area 6F
+0070 Area 70
+0071 Area 71
+0072 Area 72
+0073 Area 73
+0074 Area 74
+0075 Area 75
+0076 Area 76
+0077 Area 77
+0078 Area 78
+0079 Area 79
+007A Area 7A
+007B Area 7B
+007C Area 7C
+007D Area 7D
+007E Area 7E
+007F Area 7F
+0080 Area 80
+0081 Area 81
+0082 Area 82
+0083 Area 83
+0084 Area 84
+0085 Area 85
+0086 Area 86
+0087 Area 87
+0088 Area 88
+0089 Area 89
+008A Area 8A
+008B Area 8B
+008C Area 8C
+008D Area 8D
+008E Area 8E
+008F Area 8F
+0100 Nothing
+0113 Start, face north
+0114 Start, face east           
+0115 Start, face south          
+0116 Start, face west           
+0117 Water                      
+0118 Oil drum                   
+0119 Table & Chairs             
+011A Floor lamp                 
+011B Shandelere                 
+011C Hanging skeleton           
+011D Dog food                   
+011E Column                     
+011F Potted tree                
+0120 Skeleton                   
+0121 Washbasin                  
+0122 Potted bush                
+0123 Vase                       
+0124 Table                      
+0125 Overhead lamp              
+0126 Pot & Pan rack             
+0127 Armor                      
+0128 Cage, empty                
+0129 Cage, with skeleton
+012A Bones
+012B Key 1 (yellow)
+012C Key 2 (grey)
+012D Bed
+012E Pot
+012F Food
+0130 First aid kit
+0131 Ammunition
+0132 Machine gun
+0133 Huge gun
+0134 Cross
+0135 Cup
+0136 Jewels
+0137 Crown
+0138 Sphere / life
+0139 Bloody bones
+013A Brown barrel
+013B Well with water
+013C Well empty
+013D Blood
+013E Flag
+013F *Call Apogee
+0140 *Trash 1
+0141 *Trash 2
+0142 *Trash 3
+0143 *Pot/Pan Rack2
+0144 *Oven
+0145 *Spear Rack
+0146 *Vines
+015A Move >
+015B Move />
+015C Move ^
+015D Move <\
+015E Move <
+015F Move </
+0160 Move v
+0161 Move \>
+0162 Secret door
+0163 End of game trigger
+016C Guard 1 >
+016D Guard 1 ^
+016E Guard 1 <
+016F Guard 1 v
+0170 Guard 1 > moving
+0171 Guard 1 ^ moving
+0172 Guard 1 < moving
+0173 Guard 1 v moving
+0174 *W Guard 1 >
+0175 *W Guard 1 ^
+0176 *W Guard 1 <
+0177 *W Guard 1 v
+0178 *W Guard 1 > moving
+0179 *W Guard 1 ^ moving
+017A *W Guard 1 < moving
+017B *W Guard 1 v moving
+017C Dead guard
+017E Officer 1  >
+017F Officer 1  ^
+0180 Officer 1  <
+0181 Officer 1  v
+0182 Officer 1  > moving
+0183 Officer 1  ^ moving
+0184 Officer 1  < moving
+0185 Officer 1  v moving
+018A Dog 1 >
+018B Dog 1 ^
+018C Dog 1 <
+018D Dog 1 v
+0190 Guard 2 >
+0191 Guard 2 ^
+0192 Guard 2 <
+0193 Guard 2 v
+0194 Guard 2 > moving
+0195 Guard 2 ^ moving
+0196 Guard 2 < moving
+0197 Guard 2 v moving
+0198 *W Guard 2 >
+0199 *W Guard 2 ^
+019A *W Guard 2 <
+019B *W Guard 2 v
+019C *W Guard 2 > moving
+019D *W Guard 2 ^ moving
+019E *W Guard 2 < moving
+019F *W Guard 2 v moving
+01A0 *Floating guy
+01A2 Officer 2 >
+01A3 Officer 2 ^
+01A4 Officer 2 <
+01A5 Officer 2 v
+01A6 Officer 2 > moving
+01A7 Officer 2 ^ moving
+01A8 Officer 2 < moving
+01A9 Officer 2 v moving
+01AE Dog 2 >
+01AF Dog 2 ^
+01B0 Dog 2 <
+01B1 Dog 2 v
+01B2 *Robo Hitler
+01B3 *General
+01B4 Guard 3 >
+01B5 Guard 3 ^
+01B6 Guard 3 <
+01B7 Guard 3 v
+01B8 Guard 3 > moving
+01B9 Guard 3 ^ moving
+01BA Guard 3 < moving
+01BB Guard 3 v moving
+01BC *W Guard 3 >
+01BD *W Guard 3 ^
+01BE *W Guard 3 <
+01BF *W Guard 3 v
+01C0 *W Guard 3 > moving
+01C1 *W Guard 3 ^ moving
+01C2 *W Guard 3 < moving
+01C3 *W Guard 3 v moving
+01C4 *Dr Schabbs
+01C5 *BIG Guardet!
+01C6 Officer 3 >
+01C7 Officer 3 ^
+01C8 Officer 3 <
+01C9 Officer 3 v
+01CA Officer 3 > moving
+01CB Officer 3 ^ moving
+01CC Officer 3 < moving
+01CD Officer 3 v moving
+01D2 Dog 3 >
+01D3 Dog 3 ^
+01D4 Dog 3 <
+01D5 Dog 3 v
+01D6 BIG Guard!
+01D7 *Big officer
+01D8 *Zombie 1 >
+01D9 *Zombie 1 ^
+01DA *Zombie 1 <
+01DB *Zombie 1 v
+01DC *Zombie 1 >
+01DD *Zombie 1 ^
+01DE *Zombie 1 <
+01DF *Zombie 1 v
+01E0 *Red Ghost
+01E1 *Orange Ghost
+01E2 *Light red Ghost
+01E3 *Blue Ghost
+01EA *Zombie 2 >
+01EB *Zombie 2 ^
+01EC *Zombie 2 <
+01ED *Zombie 2 v
+01EE *Zombie 2 >
+01EF *Zombie 2 ^
+01F0 *Zombie 2 <
+01F1 *Zombie 2 v
+01FC *Zombie 3 >
+01FD *Zombie 3 ^
+01FE *Zombie 3 <
+01FF *Zombie 3 v
+0200 *Zombie 3 >
+0201 *Zombie 3 ^
+0202 *Zombie 3 <
+0203 *Zombie 3 v

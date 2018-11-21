@@ -15,27 +15,8 @@ function(SOURCES_TO_COMPILE PROJECT_NAME)
             ${CMAKE_SOURCE_DIR}/src/timer.cpp
             ${CMAKE_SOURCE_DIR}/src/timer.h
 
-            ${CMAKE_SOURCE_DIR}/src/ECS/Component/lifespancomponent.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Component/anchorpointcomponent.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Component/texturecomponent.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Component/entityinformationcomponent.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Component/componentfactory.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Component/componentmanager.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Component/component.h
-
-            ${CMAKE_SOURCE_DIR}/src/ECS/System/rendering.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/System/kinematics.cpp
-
-            ${CMAKE_SOURCE_DIR}/src/ECS/Event/events.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Event/events.h
-
-            ${CMAKE_SOURCE_DIR}/src/ECS/Entity/entityfactory.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Entity/entitymanager.cpp
-            ${CMAKE_SOURCE_DIR}/src/ECS/Entity/entity.h
-
             ${CMAKE_SOURCE_DIR}/src/Sprite.cpp
 
-            ${CMAKE_SOURCE_DIR}/src/SignalSlot/signalslot.h
 
             )
 endfunction() 

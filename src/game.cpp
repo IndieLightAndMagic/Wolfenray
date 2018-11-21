@@ -2,13 +2,11 @@
 #include <vector>
 #include <functional>
 
-#include <glm/detail/func_trigonometric.hpp>
 #include <SDL2/SDL.h>
 #include <SDLWrapper/sdlwrapper.h>
 
 #include <ECS/System/kinematics.h>
 #include <ECS/System/rendering.h>
-#include <ECS/Event/events.h>
 
 #include <Sprite.h>
 
@@ -97,9 +95,6 @@ namespace GAME{
     {
         bGameIsOn = true;
 
-        ECS::LifeSpanComponent_ x;
-        auto signalId = x.onLifeSpanEnded.connect_function(OnTimerDone);
-        x.Set(6000);
 
 
         while (bGameIsOn)

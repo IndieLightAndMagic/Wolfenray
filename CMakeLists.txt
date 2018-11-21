@@ -8,7 +8,6 @@
 cmake_minimum_required(VERSION 3.9.0 FATAL_ERROR)
 include(cmake/Messages.cmake)
 
-set(CMAKE_VERBOSE_MAKEFILE TRUE)
 set(GTECH_DIR $ENV{GTECH_ROOT})
 
 PrintLine()
@@ -48,6 +47,7 @@ GLM_INCLUDE()
 PrintLine()
 HeaderMessage("Adding Sources To Project")
 SOURCES_TO_COMPILE(${ProjectName})
+set(CMAKE_VERBOSE_MAKEFILE TRUE)
 
 PrintLine()
 HeaderMessage("SDL2 Libraries Linkage Addition")
