@@ -1,11 +1,3 @@
-[submodule "src/SignalSlot"]
-	path = src/SignalSlot
-	url = git@github.com:IndieLightAndMagic/Signals-And-Octo-Slots.git
-	branch = master
-[submodule "src/ECS"]
-	path = src/ECS
-	url = git@github.com:IndieLightAndMagic/ECS.git
-	branch = master
 [submodule "src/json"]
 	path = src/json
 	url = git@github.com:nlohmann/json.git
